@@ -1,6 +1,7 @@
 import { useWallet } from './context/WalletContext.jsx';
 import Login from './components/Login.jsx';
 import WalletDashboard from './components/WalletDashboard.jsx';
+import './App.css'; // make sure this is imported
 
 function App() {
   const { wallet, loading } = useWallet();
